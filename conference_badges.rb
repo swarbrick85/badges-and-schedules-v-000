@@ -23,6 +23,12 @@ return c
 end
 
 def printer(attendees)
+  x = 1 
   attendees.each do |name|
-    
+    puts "Hello, my name is #{name}."
+  end 
+  attendees.each do |name|
+    puts "Hello, #{name}! You'll be assigned to room #{x}!"
+    x += 1 
+  end 
 end 
